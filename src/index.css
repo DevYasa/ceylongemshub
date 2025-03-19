@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@keyframes diamondRotate {
+  0%, 100% { transform: rotateY(0deg) rotateX(10deg); }
+  50% { transform: rotateY(180deg) rotateX(10deg); }
+}
+
+@keyframes diamondPulse {
+  0% { filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5)); }
+  100% { filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.8)); }
+}
+
+@keyframes logoPulse {
+  0% { transform: translate(-50%, -50%) scale(1); filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.5)); }
+  100% { transform: translate(-50%, -50%) scale(1.05); filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.8)); }
+}
+
+@keyframes reflectionPulse {
+  0% { opacity: 0.2; transform: translateX(-50%) scaleX(0.8); }
+  100% { opacity: 0.4; transform: translateX(-50%) scaleX(1.2); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
