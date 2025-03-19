@@ -26,3 +26,15 @@
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+@media (max-width: 640px) {
+  /* Mobile-specific overrides */
+  .hero-section {
+    height: 80vh; /* Shorter on mobile */
+  }
+  
+  .collection-item {
+    width: 100%; /* Full width on mobile */
+    margin-bottom: 1rem;
+  }
+}
